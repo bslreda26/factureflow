@@ -409,7 +409,7 @@ function App() {
                 period: "FCFA",
                 features: [
                   "Installation du logiciel FactureFlow",
-                  "(Agent local + BDD + Interface UI)",
+                  "(Agent local + BDD + Interface UI + 1 point de vente)",
                   "Abonnement annuel (100 000 FCFA)",
                   "Support technique",
                 ],
@@ -423,6 +423,7 @@ function App() {
                   "Installation du logiciel FactureFlow",
                   "(Agent local + BDD + Interface UI + plusieurs point de vente)",
                   "Abonnement annuel (300 000 FCFA)",
+                  "100 000 FCFA pour chaque point de vente ajouté",
                   "Support technique",
                 ],
                 popular: true,
