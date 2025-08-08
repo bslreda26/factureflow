@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yourdomain.com",
+  "homepage": "https://bslreda26.github.io/factureflow",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
