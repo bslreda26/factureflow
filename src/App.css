@@ -1407,10 +1407,22 @@ footer::before {
     line-height: 1.6;
   }
 
-  /* Stack cards vertically on mobile */
+  /* Display cards horizontally on mobile */
   .grid-cols-2,
   .grid-cols-3 {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+  }
+
+  /* Make cards fit horizontally without scroll */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .grid > * {
+    min-width: 0;
   }
 
   /* Reduce padding on mobile */
