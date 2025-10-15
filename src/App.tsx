@@ -404,18 +404,6 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                name: "Local",
-                price: "700 000",
-                period: "FCFA",
-                features: [
-                  "Installation du logiciel FactureFlow",
-                  "(Agent local + BDD + Interface UI + 1 point de vente)",
-                  "Abonnement annuel (100 000 FCFA)",
-                  "Support technique",
-                ],
-                popular: false,
-              },
-              {
                 name: "Cloud",
                 price: "700 000",
                 period: "FCFA",
