@@ -405,12 +405,12 @@ function App() {
             {[
               {
                 name: "Cloud",
-                price: "700 000",
+                price: "900 000",
                 period: "FCFA",
                 features: [
                   "Installation du logiciel FactureFlow",
                   "(Agent local + BDD + Interface UI + plusieurs point de vente)",
-                  "Abonnement annuel (300 000 FCFA)",
+                  "Abonnement annuel (200 000 FCFA)",
                   "100 000 FCFA pour chaque point de vente ajouté",
                   "Support technique",
                 ],
